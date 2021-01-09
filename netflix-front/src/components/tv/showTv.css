@@ -1,0 +1,154 @@
+.child {
+  position: absolute;
+  top: 0;
+  background-color: orchid;
+}
+
+.child-1 {
+  left: 0;
+  padding: "20px";
+  background-color: palegoldenrod;
+}
+
+.child-2 {
+  left: 150px;
+  padding: "20px";
+  background-color: orange;
+}
+
+.parent {
+  position: relative;
+  background-color: white;
+  padding: "20px";
+  margin-top: 66px;
+  color: blue;
+  margin-bottom: "60px";
+}
+
+.collapsible {
+  border-bottom: 3px solid transparent;
+  border-radius: 5px;
+  transition: "all ease 1s";
+}
+
+.collapsible:hover {
+  border-bottom: 3px solid red;
+  border-radius: 5px;
+  transition: "all ease 1s";
+}
+
+.display-true {
+  display: inherit;
+  transition: "all ease 1s";
+}
+
+.display-false {
+  display: none;
+  transition: "all ease 1s";
+}
+
+.tv-botton {
+  color: #31302b;
+  background: #fff;
+  padding: 10px 13px;
+
+  font-family: sans-serif;
+  border: 3px solid rgb(77, 73, 73);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #31302b;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 1s;
+}
+
+.tv-botton:hover {
+  box-shadow: inset 100px 0 0 0 rgb(245, 51, 51);
+  color: #e0e0e0;
+}
+
+.play-button {
+  color: #31302b;
+  background: #fff;
+  padding: 12px 17px;
+  margin: 20px;
+  font-family: sans-serif;
+  border: 3px solid rgb(77, 73, 73);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #31302b;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 1s;
+}
+.delete-button {
+  color: #31302b;
+  background: #fff;
+  padding: 12px 17px;
+  margin: 20px;
+  font-family: sans-serif;
+  border: 3px solid rgb(77, 73, 73);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #31302b;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 1s;
+}
+
+.play-button:hover {
+  box-shadow: inset 80px 0 5px 0 rgb(245, 51, 51);
+  color: #e0e0e0;
+  border: 3px solid #e0e0e0;
+}
+
+.delete-button:hover {
+  box-shadow: inset 110px 0 5px 0 rgb(245, 51, 51);
+  color: #e0e0e0;
+  border: 3px solid #e0e0e0;
+}
+
+.edit-show:hover {
+  box-shadow: inset 150px 0 5px 0 rgb(245, 51, 51);
+  color: #e0e0e0;
+  border: 3px solid #e0e0e0;
+}
+
+.edit-show {
+  color: #31302b;
+  background: #fff;
+  padding: 12px 17px;
+  margin: 20px;
+  font-family: sans-serif;
+  border: 3px solid rgb(77, 73, 73);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #31302b;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 1s;
+}

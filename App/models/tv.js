@@ -5,9 +5,9 @@ const tvSchema = new Schema({
     tvTitle:{
         type:String
     },
-    genre:{
+    genre:[{
         type:String
-    },
+    }],
     rating:{
         type:Number
     },
@@ -23,9 +23,13 @@ const tvSchema = new Schema({
     createdAt:{
         type:Date,
         default:Date.now()
-    }
+    },
+    
 })
 
+
 const TvShows = mongoose.model("TvShows",tvSchema)
+
+
 
 module.exports = TvShows

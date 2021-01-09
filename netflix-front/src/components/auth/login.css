@@ -1,0 +1,12 @@
+.form-control {
+  max-width: 100%;
+}
+
+.back-image-login {
+  background-image: url(https://res.cloudinary.com/drhewzpgi/image/upload/v1606242975/logo/12360077-photo-of-an-old-movie-projector_kian28.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}

@@ -1,0 +1,9 @@
+.form_Background {
+  background-image: url(https://res.cloudinary.com/drhewzpgi/image/upload/v1603195490/IN-en-20201012-popsignuptwoweeks-perspective_alpha_website_medium_r9xlhu.jpg);
+  background-position-y: center;
+  background-size: cover;
+  object-fit: fill;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: sans-serif;
+}

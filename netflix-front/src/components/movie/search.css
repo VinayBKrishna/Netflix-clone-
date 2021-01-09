@@ -1,0 +1,20 @@
+.search-element {
+  display: none;
+}
+
+.search-bar {
+  background-color: inherit;
+
+  color: rgb(71, 67, 67);
+
+  font-size: "16px";
+}
+
+@media (max-width: 576px) {
+  input {
+    margin-right: 100px;
+  }
+  .search-bar {
+    margin-left: -102px;
+  }
+}

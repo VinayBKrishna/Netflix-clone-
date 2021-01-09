@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+    color: blue;
+  }
+  .nav-item {
+    font-size: 1rem;
+  }
+}
